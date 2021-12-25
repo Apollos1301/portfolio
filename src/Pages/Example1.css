@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.ref_1{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height: 12vh;
+  background-color: rgba(173, 218, 226, 0.356);
+  color: white;
+  font-size:3vmin;
+  z-index: 99;
+  font-family: 'Sora', sans-serif;
+}
+.nav1 img{
+  width: 10vh;
+  height: 10vh;
+}
+.nav1_links{
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.ref1_top_backg{
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(C:\Users\Abtin\Desktop\HTML\ref-pages\src\Pages\components\pictures\backg1.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.ref1_top{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding-top:25vh;
+  padding-bottom:25vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.ref1_top h1{
+  align-self: center;
+  color: white;
+  font-size: 12vmax;
+  font-family: 'Sora', sans-serif;
+  
+}
+.ref1_span1{
+  font-size: 17vmax;
+  color: rgb(173, 218, 226);
+}
+.ref1_top h3{
+  color: white;
+  font-size: 1vmax;
+  text-decoration: underline white;
+  font-family: 'Sora', sans-serif;
+  
+}
+.ref1_btn_top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  min-height: 40px;
+  color: rgb(192, 228, 241);
+  filter: drop-shadow(1px 4.5px  rgb(0, 0, 0));
+  margin-top: 1vh;
+  background-color: transparent;
+  font-size: 2vmax;
+  font-family: 'Bebas Neue', cursive;
+  border: 0;
+  cursor: pointer;
+}
+.ref1_span2{
+  font-size: 8vmax;
+  color: rgb(173, 218, 226);
+}
+
+/*****Mid*******/
+.ref1_mid_backg{
+  position: relative;
+  width: 100%;
+  height:50vh;
+  background-color: rgb(207, 207, 207);
+  margin: 0;
+  
+  border: 0.8vmin outset rgb(165, 165, 165);
+}
+.ref1_mid{
+  display: flex;
+  flex-direction: row;
+ height:100%;
+ width:100%;
+ justify-content:space-between;
+ align-items: center;
+ 
+}
+.ref1_mid_images{
+  position: relative;
+  width: 60%;
+  height:80%;
+}
+.ref1_mid_img1{
+  position: absolute;
+  top: 15%;
+  left: 13%;
+  width: 30%;
+  height: 50%;
+  z-index: 1;
+}
+.ref1_mid_img2{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 30%;
+  height: 60%;
+  z-index: 1;
+  opacity: 0.8;
+}
+.ref1_mid_img3{
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  width: 30%;
+  height: 40%;
+  z-index: 2;
+  opacity: 0.8;
+}
+.ref1_mid_img4{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 30%;
+  height: 50%;
+  z-index: 1;
+}
+.ref1_mid_right{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ref1_mid_btn{
+  min-width: 120px;
+  min-height: 40px;
+  background-color: transparent;
+  font-size: 4vmax;
+  font-family: 'Bebas Neue', cursive;
+  border: 0;
+  filter: drop-shadow(1px 1px  rgb(0, 0, 0));
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
